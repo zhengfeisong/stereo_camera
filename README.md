@@ -6,17 +6,4 @@ The project compares **Block Matching (BM)** and **Semi-Global Block Matching (S
 
 ## Results
 
-![Stereo camera results: camera images, disparity maps, depth maps, and point cloud reconstruction](https://zhengfeisong.github.io/fig/stereocamera.png)
-
-[Point cloud demo](pointcloud.mp4) · [Project report](Report.pdf) · [Personal website](https://zhengfeisong.github.io/projects.html)
-
-## Repository Contents
-
-- `stereo_matching/`: C++ stereo matching and point cloud visualization code, CMake configuration, and calibration files.
-- `calibrationSession.mat`: MATLAB camera calibration session.
-- `Report.pdf`: Project report.
-- `pointcloud.mp4`: Point cloud reconstruction demonstration.
-
-## Tools
-
-C++17, OpenCV 4, Eigen3, Pangolin, and MATLAB.
+![Stereo camera depth maps and point cloud reconstruction](stereocamera.png)
